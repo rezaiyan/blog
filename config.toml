@@ -6,8 +6,8 @@ title = "Ali Rezaiyan"
 theme = "hyde-hyde-2.0.1"
 
 ## Hugo Built-in Features
-# disqusShortname = "your-disqus-shortname"
-# googleAnalytics = "your-google-analytics-id"
+disqusShortname = "rezaiyan"
+# googleAnalytics = "G-E82KF8RS8G"
 # enableRobotsTXT = true
 
 # summarylength = 50
