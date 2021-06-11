@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseurl = "https://github.com/rezaiyan/rezaiyan.github.io"
+baseurl = "https://rezaiyan.github.io"
 languageCode = "en"
 
 title = "Ali Rezaiyan"
