@@ -15,7 +15,7 @@ jobs:
           fetch-depth: '0'
           ref: 'master'
       - name: Install SSH key
-        uses: rezaiyan/ssh-key-action@v2
+        uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           name: id_rsa # optional
