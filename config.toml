@@ -1,0 +1,73 @@
+## Basic Configuration
+baseurl = "https://github.com/rezaiyan/rezaiyan.github.io"
+languageCode = "en"
+
+title = "Ali Rezaiyan"
+theme = "hyde-hyde-2.0.1"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+# summarylength = 50
+
+#paginate = 5
+
+## Site Settings
+[params]
+    author = "Ali Rezaiyan"
+    title = "Ali Rezaiyan"
+    description = "Android Developer"
+    authorimage = "/img/avatar.jpg"
+    dateformat = "Jan 2, 2006"
+
+    # sidebar, copyright & license
+    logoimage = "/img/avatar.jpg"
+    copyright = "© 2021 Ali Rezaiyan"
+    since = 2021
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = true
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    github = "rezaiyan"
+    instagram = "a_rezaiyan"
+    # xing = "rezaiyan"
+    linkedin = "rezaiyan"
+    twitter = "arezaiyan"
+    # facebook = "alirezaiyan"
+    # microblog = "<username>"
+    stackoverflow = "rezaiyan"
+    # telegram = "a_rezaiyan"
+    # orcid = "<xxxx-xxxx-xxxx-xxxx>"
+    email = "alirezaiyann@gmail.com"
+    gravatar = "alirezaiyann@gmail.com"
+    # pgpkey = "<path-to-your-key-in-/static>"
+    keybase = "rezaiyan"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
