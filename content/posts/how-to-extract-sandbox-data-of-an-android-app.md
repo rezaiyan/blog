@@ -1,7 +1,7 @@
 ---
 author: "Ali Rezaiyan"
-date: 2014-09-28
-linktitle: Creating a New Theme
+date: 2020-10-24
+linktitle: How to Extract Sandbox data of an Android App?
 title: How to Extract Sandbox data of an Android App?
 categories: [ "Development", "Android" ]
 tags: ["adb", "android", "debugging"]
